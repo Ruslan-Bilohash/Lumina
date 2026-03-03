@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina v2.0 — Документація</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+        .section { scroll-margin-top: 80px; }
+        .toc a { transition: all 0.2s; }
+        .toc a:hover { color: #3b82f6; transform: translateX(8px); }
+    </style>
+</head>
+<body class="bg-white text-zinc-800">
+
+    <!-- ==================== ШАПКА ==================== -->
+    <header class="fixed top-0 inset-x-0 bg-white border-b border-zinc-200 z-50 shadow-sm">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-4xl text-blue-600">folder_open</span>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight text-zinc-900">Lumina</h1>
+                    <p class="text-xs text-zinc-500 -mt-1">v2.0 • PHP File Manager</p>
+                </div>
+            </div>
+            <nav class="flex gap-8 text-sm font-medium">
+                <a href="#features" class="hover:text-blue-600 transition">Особливості</a>
+                <a href="#install" class="hover:text-blue-600 transition">Встановлення</a>
+                <a href="#help" class="hover:text-blue-600 transition">Довідка</a>
+                <a href="#faq" class="hover:text-blue-600 transition">FAQ</a>
+            </nav>
+            <a href="index.php" target="_blank" 
+               class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-2 transition">
+                <span class="material-symbols-outlined text-lg">open_in_new</span>
+                Відкрити менеджер
+            </a>
+        </div>
+    </header>
+
+    <!-- ==================== ГЕРОЙ ==================== -->
+    <section class="hero-bg pt-28 pb-16">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-white rounded-3xl px-6 py-2 shadow text-sm font-medium mb-6">
+                <span class="text-emerald-500">●</span>
+                Версія 2.0 — Оновлено 2026
+            </div>
+            <h1 class="text-6xl font-bold tracking-tighter text-zinc-900 leading-none mb-4">
+                Lumina —<br>Сучасний PHP<br>Файловий менеджер
+            </h1>
+            <p class="text-2xl text-zinc-600 max-w-2xl mx-auto">
+                Один файл. 9 мов. Світлий дизайн. Повна адаптивність.<br>
+                Ідеально для хостингів, VPS та мобільних пристроїв.
+            </p>
+            <div class="flex gap-4 justify-center mt-10">
+                <a href="#install" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-5 rounded-3xl font-semibold text-lg transition">Встановити за 3 хвилини</a>
+                <a href="index.php" target="_blank" class="border border-zinc-300 hover:border-zinc-400 px-10 py-5 rounded-3xl font-semibold text-lg transition">Переглянути демо</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ЗМІСТ ==================== -->
+    <div class="max-w-5xl mx-auto px-6 py-12 grid grid-cols-12 gap-12">
+        
+        <!-- TOC -->
+        <div class="col-span-12 lg:col-span-3">
+            <div class="sticky top-24 bg-white border border-zinc-100 rounded-3xl p-6 text-sm">
+                <h3 class="font-semibold text-zinc-500 mb-4 text-xs tracking-widest">ЗМІСТ</h3>
+                <div class="toc space-y-3 text-zinc-700">
+                    <a href="#about" class="block">• Про Lumina</a>
+                    <a href="#features" class="block">• Основні можливості</a>
+                    <a href="#install" class="block">• Встановлення</a>
+                    <a href="#config" class="block">• Налаштування</a>
+                    <a href="#help" class="block">• Довідка користувача</a>
+                    <a href="#faq" class="block">• FAQ</a>
+                    <a href="#changelog" class="block">• Історія змін</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ОСНОВНИЙ КОНТЕНТ -->
+        <div class="col-span-12 lg:col-span-9 space-y-20">
+
+            <!-- ПРО ПРОДУКТ -->
+            <section id="about" class="section">
+                <h2 class="text-4xl font-bold mb-6">Про Lumina</h2>
+                <p class="text-lg text-zinc-600 leading-relaxed">
+                    Lumina — це сучасний односторінковий PHP файловий менеджер з чистим світлим дизайном. 
+                    Працює на будь-якому хостингу, не потребує бази даних і встановлюється за 30 секунд.
+                </p>
+                <div class="mt-8 grid grid-cols-3 gap-6 text-center text-sm">
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-6">
+                        <span class="material-symbols-outlined text-4xl text-blue-600 mb-3 block">language</span>
+                        <div class="font-semibold">9 мов</div>
+                        <div class="text-zinc-500">включаючи українську</div>
+                    </div>
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-6">
+                        <span class="material-symbols-outlined text-4xl text-emerald-600 mb-3 block">phone_iphone</span>
+                        <div class="font-semibold">Мобільний</div>
+                        <div class="text-zinc-500">iPhone + Android</div>
+                    </div>
+                    <div class="bg-white border border-zinc-100 rounded-3xl p-6">
+                        <span class="material-symbols-outlined text-4xl text-amber-600 mb-3 block">speed</span>
+                        <div class="font-semibold">Швидкий</div>
+                        <div class="text-zinc-500">AJAX без перезавантажень</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ОСОБЛИВОСТІ -->
+            <section id="features" class="section">
+                <h2 class="text-4xl font-bold mb-8">Основні можливості</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex gap-5 bg-white border border-zinc-100 rounded-3xl p-7">
+                        <span class="material-symbols-outlined text-5xl text-blue-500 flex-shrink-0">folder_open</span>
+                        <div>
+                            <div class="font-semibold text-xl mb-1">Перегляд файлів</div>
+                            <div class="text-zinc-600">Сортування, іконки, розміри, розширення</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 bg-white border border-zinc-100 rounded-3xl p-7">
+                        <span class="material-symbols-outlined text-5xl text-emerald-500 flex-shrink-0">edit_note</span>
+                        <div>
+                            <div class="font-semibold text-xl mb-1">Вбудований редактор</div>
+                            <div class="text-zinc-600">Копіювати, вирізати, вставити, збереження</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 bg-white border border-zinc-100 rounded-3xl p-7">
+                        <span class="material-symbols-outlined text-5xl text-purple-500 flex-shrink-0">upload_file</span>
+                        <div>
+                            <div class="font-semibold text-xl mb-1">Завантаження файлів</div>
+                            <div class="text-zinc-600">Багатозавантаження одним кліком</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 bg-white border border-zinc-100 rounded-3xl p-7">
+                        <span class="material-symbols-outlined text-5xl text-red-500 flex-shrink-0">delete_forever</span>
+                        <div>
+                            <div class="font-semibold text-xl mb-1">Множинне видалення</div>
+                            <div class="text-zinc-600">Виділення та масове видалення</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ВСТАНОВЛЕННЯ -->
+            <section id="install" class="section">
+                <h2 class="text-4xl font-bold mb-6">Встановлення за 3 хвилини</h2>
+                <ol class="space-y-8 text-lg">
+                    <li class="flex gap-6">
+                        <div class="w-9 h-9 rounded-2xl bg-blue-100 text-blue-600 font-bold flex items-center justify-center flex-shrink-0">1</div>
+                        <div>
+                            <div class="font-semibold">Завантажте файл</div>
+                            <div class="text-zinc-600">Скопіюйте <code class="bg-zinc-100 px-2 py-1 rounded">index.php</code> у потрібну папку на сервері</div>
+                        </div>
+                    </li>
+                    <li class="flex gap-6">
+                        <div class="w-9 h-9 rounded-2xl bg-blue-100 text-blue-600 font-bold flex items-center justify-center flex-shrink-0">2</div>
+                        <div>
+                            <div class="font-semibold">Відкрийте в браузері</div>
+                            <div class="text-zinc-600">Перейдіть за адресою, де лежить файл</div>
+                        </div>
+                    </li>
+                    <li class="flex gap-6">
+                        <div class="w-9 h-9 rounded-2xl bg-blue-100 text-blue-600 font-bold flex items-center justify-center flex-shrink-0">3</div>
+                        <div>
+                            <div class="font-semibold">Введіть пароль</div>
+                            <div class="text-zinc-600">За замовчуванням: <strong>admin123</strong></div>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- НАЛАШТУВАННЯ -->
+            <section id="config" class="section">
+                <h2 class="text-4xl font-bold mb-6">Налаштування пароля</h2>
+                <div class="bg-zinc-900 text-white p-8 rounded-3xl font-mono text-sm leading-relaxed">
+                    Відкрийте <code class="text-amber-400">index.php</code> і знайдіть рядок:<br><br>
+                    <span class="text-emerald-400">$PASSWORD = "admin123";</span><br><br>
+                    Замініть на свій надійний пароль і збережіть файл.
+                </div>
+            </section>
+
+            <!-- ДОВІДКА КОРИСТУВАЧА -->
+            <section id="help" class="section">
+                <h2 class="text-4xl font-bold mb-6">📖 Довідка користувача</h2>
+                
+                <div class="prose prose-zinc max-w-none">
+                    <h3>Як користуватися Lumina</h3>
+                    <ul>
+                        <li><strong>Головна</strong> — повернутися в корінь папки</li>
+                        <li><strong>Натисніть на папку</strong> — відкрити її</li>
+                        <li><strong>Натисніть на файл</strong> — відкрити редактор</li>
+                        <li><strong>Чекбокси</strong> — множинне виділення (для масового видалення)</li>
+                        <li><strong>Кнопки в редакторі</strong>:
+                            <ul>
+                                <li>📋 Копіювати</li>
+                                <li>✂️ Вирізати</li>
+                                <li>📋 Вставити</li>
+                                <li>💾 Зберегти</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>Гарячі підказки</h3>
+                    <ul>
+                        <li>Світлий дизайн спеціально оптимізований для мобільних пристроїв</li>
+                        <li>Зміна мови працює в будь-якій підпапці (виправлено в v2.0)</li>
+                        <li>Автоматичний розрахунок вільного місця на диску</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section id="faq" class="section">
+                <h2 class="text-4xl font-bold mb-8">FAQ — Часті питання</h2>
+                <div class="space-y-8">
+                    <div>
+                        <div class="font-semibold text-lg">Чи працює на Shared-хостингу?</div>
+                        <div class="text-zinc-600">Так. Достатньо PHP 7.4+ та прав на запис.</div>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-lg">Чи потрібна база даних?</div>
+                        <div class="text-zinc-600">Ні. Все працює на чистому PHP.</div>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-lg">Чи можна змінити назву файлу?</div>
+                        <div class="text-zinc-600">Так. Просто перейменуйте <code>index.php</code> на будь-яке ім’я (наприклад admin.php).</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CHANGELOG -->
+            <section id="changelog" class="section">
+                <h2 class="text-4xl font-bold mb-6">Історія змін</h2>
+                <div class="text-sm">
+                    <div class="bg-emerald-50 border border-emerald-200 rounded-3xl p-6">
+                        <div class="font-mono text-emerald-700">v2.0 — 03 березня 2026</div>
+                        <ul class="list-disc ml-6 mt-4 space-y-2 text-zinc-700">
+                            <li>Новий світлий сучасний дизайн</li>
+                            <li>Виправлено зміну мови в будь-яких підпапках</li>
+                            <li>Змінено назву на Lumina</li>
+                            <li>Пароль за замовчуванням: admin123</li>
+                            <li>Повністю українська документація</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- ФУТЕР -->
+    <footer class="bg-zinc-900 text-white py-12">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="text-zinc-400">© 2026 Lumina. Всі права захищено.</p>
+            <p class="text-xs text-zinc-500 mt-4">Готовий до публікації на CodeCanyon</p>
+        </div>
+    </footer>
+
+</body>
+</html>
