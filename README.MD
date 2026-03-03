@@ -1,7 +1,7 @@
 
 # 🌟 Lumina — Modern PHP File Manager v2.0
 
-![Lumina Banner](https://via.placeholder.com/1200x400/3b82f6/ffffff?text=LUMINA+PHP+FILE+MANAGER)  
+![Lumina Banner](login.jpeg)  
 *(Заміни на своє зображення після публікації)*
 
 > **Сучасний, швидкий і стильний PHP файловий менеджер** з підтримкою **9 мов**, адаптивним світлим дизайном і повною сумісністю з мобільними пристроями (iPhone, Android, планшети).  
