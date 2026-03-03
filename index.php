@@ -4,13 +4,10 @@ session_start();
 $translations = [
     'ru' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Вход — Lumina',
         'password' => 'Пароль',
         'open_manager' => 'Открыть менеджер',
-        'new_folder' => 'Новая папка',
-        'new_file' => 'Новый файл',
-        'upload' => 'Загрузить',
         'logout' => 'Выход',
         'space' => 'Место',
         'home' => 'Главная',
@@ -24,20 +21,19 @@ $translations = [
         'copied' => '📋 Текст скопирован',
         'cut_text' => '✂️ Текст вырезан',
         'pasted' => '📋 Вставлено',
+        'upload_success' => '✅ Файлы загружены',
+        'upload_error' => '❌ Ошибка загрузки',
         'help_title' => 'Справка',
-        'help_text' => "Lumina — удобный файловый менеджер для любых устройств и мобильных.\n\n• Нажми Главная — вернуться в корень\n• Нажми папку — открыть\n• Нажми файл — редактировать\n• Кнопка в шапке — множественный выбор",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'help_text' => "Lumina — удобный файловый менеджер для любых устройств.\n\n• Главная — вернуться в корень\n• Нажми папку — открыть\n• Нажми файл — редактировать",
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Назад'
     ],
     'uk' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Вхід — Lumina',
         'password' => 'Пароль',
         'open_manager' => 'Відкрити менеджер',
-        'new_folder' => 'Нова папка',
-        'new_file' => 'Новий файл',
-        'upload' => 'Завантажити',
         'logout' => 'Вихід',
         'space' => 'Місце',
         'home' => 'Головна',
@@ -51,20 +47,19 @@ $translations = [
         'copied' => '📋 Текст скопійовано',
         'cut_text' => '✂️ Текст вирізано',
         'pasted' => '📋 Вставлено',
+        'upload_success' => '✅ Файли завантажено',
+        'upload_error' => '❌ Помилка завантаження',
         'help_title' => 'Довідка',
         'help_text' => "Lumina — зручний файловий менеджер для будь-яких пристроїв.\n\n• Головна — повернутися в корінь\n• Натисни папку — відкрити\n• Натисни файл — редагувати",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Назад'
     ],
     'en' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Login — Lumina',
         'password' => 'Password',
         'open_manager' => 'Open Manager',
-        'new_folder' => 'New Folder',
-        'new_file' => 'New File',
-        'upload' => 'Upload',
         'logout' => 'Logout',
         'space' => 'Space',
         'home' => 'Home',
@@ -78,20 +73,19 @@ $translations = [
         'copied' => '📋 Text copied',
         'cut_text' => '✂️ Text cut',
         'pasted' => '📋 Pasted',
+        'upload_success' => '✅ Files uploaded',
+        'upload_error' => '❌ Upload error',
         'help_title' => 'Help',
         'help_text' => "Lumina — convenient file manager for any devices.\n\n• Home button — go to root\n• Tap folder to open\n• Tap file to edit",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Back'
     ],
     'de' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Anmelden — Lumina',
         'password' => 'Passwort',
         'open_manager' => 'Manager öffnen',
-        'new_folder' => 'Neuer Ordner',
-        'new_file' => 'Neue Datei',
-        'upload' => 'Hochladen',
         'logout' => 'Abmelden',
         'space' => 'Speicher',
         'home' => 'Start',
@@ -105,20 +99,19 @@ $translations = [
         'copied' => '📋 Text kopiert',
         'cut_text' => '✂️ Text ausgeschnitten',
         'pasted' => '📋 Eingefügt',
+        'upload_success' => '✅ Dateien hochgeladen',
+        'upload_error' => '❌ Upload-Fehler',
         'help_title' => 'Hilfe',
         'help_text' => "Lumina — bequemer Dateimanager für alle Geräte.\n\n• Home-Taste — zum Root\n• Ordner antippen\n• Datei antippen zum Bearbeiten",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Zurück'
     ],
     'pl' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Logowanie — Lumina',
         'password' => 'Hasło',
         'open_manager' => 'Otwórz menedżer',
-        'new_folder' => 'Nowy folder',
-        'new_file' => 'Nowy plik',
-        'upload' => 'Prześlij',
         'logout' => 'Wyloguj',
         'space' => 'Miejsce',
         'home' => 'Główna',
@@ -132,20 +125,19 @@ $translations = [
         'copied' => '📋 Tekst skopiowany',
         'cut_text' => '✂️ Tekst wycięty',
         'pasted' => '📋 Wklejono',
+        'upload_success' => '✅ Pliki przesłane',
+        'upload_error' => '❌ Błąd przesyłania',
         'help_title' => 'Pomoc',
         'help_text' => "Lumina — wygodny menedżer plików dla wszystkich urządzeń.\n\n• Przycisk Główna — powrót do root\n• Dotknij folderu\n• Dotknij pliku by edytować",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Wstecz'
     ],
     'lt' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Prisijungimas — Lumina',
         'password' => 'Slaptažodis',
         'open_manager' => 'Atidaryti tvarkyklę',
-        'new_folder' => 'Naujas aplankas',
-        'new_file' => 'Naujas failas',
-        'upload' => 'Įkelti',
         'logout' => 'Atsijungti',
         'space' => 'Vieta',
         'home' => 'Pagrindinis',
@@ -159,20 +151,19 @@ $translations = [
         'copied' => '📋 Tekstas nukopijuotas',
         'cut_text' => '✂️ Tekstas iškirstas',
         'pasted' => '📋 Įklijuota',
+        'upload_success' => '✅ Failai įkelti',
+        'upload_error' => '❌ Įkėlimo klaida',
         'help_title' => 'Pagalba',
         'help_text' => "Lumina — patogus failų tvarkytuvas visiems įrenginiams.\n\n• Mygtukas Pagrindinis — grįžti į šaknį\n• Bakstelėkite aplanką\n• Bakstelėkite failą redaguoti",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Atgal'
     ],
     'no' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Logg inn — Lumina',
         'password' => 'Passord',
         'open_manager' => 'Åpne filbehandler',
-        'new_folder' => 'Ny mappe',
-        'new_file' => 'Ny fil',
-        'upload' => 'Last opp',
         'logout' => 'Logg ut',
         'space' => 'Lagringsplass',
         'home' => 'Hjem',
@@ -186,20 +177,19 @@ $translations = [
         'copied' => '📋 Tekst kopiert',
         'cut_text' => '✂️ Tekst klippet ut',
         'pasted' => '📋 Limt inn',
+        'upload_success' => '✅ Filer lastet opp',
+        'upload_error' => '❌ Opplastingsfeil',
         'help_title' => 'Hjelp',
         'help_text' => "Lumina — praktisk filbehandler for alle enheter.\n\n• Hjem-knapp — tilbake til rot\n• Trykk på mappe\n• Trykk på fil for å redigere",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Tilbake'
     ],
     'sv' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'Logga in — Lumina',
         'password' => 'Lösenord',
         'open_manager' => 'Öppna filhanterare',
-        'new_folder' => 'Ny mapp',
-        'new_file' => 'Ny fil',
-        'upload' => 'Ladda upp',
         'logout' => 'Logga ut',
         'space' => 'Utrymme',
         'home' => 'Hem',
@@ -213,20 +203,19 @@ $translations = [
         'copied' => '📋 Text kopierad',
         'cut_text' => '✂️ Text klippt ut',
         'pasted' => '📋 Klistrat in',
+        'upload_success' => '✅ Filer uppladdade',
+        'upload_error' => '❌ Uppladdningsfel',
         'help_title' => 'Hjälp',
         'help_text' => "Lumina — bekväm filhanterare för alla enheter.\n\n• Hem-knappen — tillbaka till rot\n• Tryck på mapp\n• Tryck på fil för att redigera",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'Tillbaka'
     ],
     'ka' => [
         'app_name' => 'Lumina',
-        'version' => '2.0',
+        'version' => '2.2',
         'login_title' => 'შესვლა — Lumina',
         'password' => 'პაროლი',
         'open_manager' => 'გახსენი მმართველი',
-        'new_folder' => 'ახალი საქაღალდე',
-        'new_file' => 'ახალი ფაილი',
-        'upload' => 'ატვირთვა',
         'logout' => 'გამოსვლა',
         'space' => 'ადგილი',
         'home' => 'მთავარი',
@@ -240,9 +229,11 @@ $translations = [
         'copied' => '📋 ტექსტი კოპირებულია',
         'cut_text' => '✂️ ტექსტი ამოჭრილია',
         'pasted' => '📋 ჩასმულია',
+        'upload_success' => '✅ ფაილები აიტვირთა',
+        'upload_error' => '❌ ატვირთვის შეცდომა',
         'help_title' => 'დახმარება',
         'help_text' => "Lumina — მოსახერხებელი ფაილების მმართველი ყველა მოწყობილობისთვის.\n\n• ღილაკი მთავარი — დაბრუნდება ძირში\n• დააჭირეთ საქაღალდეს\n• დააჭირეთ ფაილს რედაქტირებისთვის",
-        'footer' => 'Lumina v2.0 Multilang • ',
+        'footer' => 'Lumina v2.2 Multilang • ',
         'back' => 'უკან'
     ]
 ];
@@ -265,7 +256,7 @@ function t($key) {
 // ====================== CSP ======================
 header("Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';");
 // ====================== ЛОГИН ======================
-$PASSWORD = "admin123"; // ← ІЗМІНИ СРАЗУ!
+$PASSWORD = "admin123";
 $TITLE = t('app_name');
 if (isset($_GET['logout'])) { session_destroy(); header("Location: " . $_SERVER['PHP_SELF']); exit; }
 if (isset($_POST['login'])) { if ($_POST['password'] === $PASSWORD) $_SESSION['logged_in'] = true; }
@@ -412,36 +403,56 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
        
         #editorTA {font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:21px;line-height:1.65;background:#ffffff;color:#111827;padding:25px 18px;width:100%;height:100%;border:none;outline:none;resize:none;caret-color:#22d3ee;}
         #toast {position:fixed;bottom:120px;left:50%;transform:translateX(-50%);padding:14px 26px;border-radius:9999px;font-size:15px;font-weight:600;z-index:99999;box-shadow:0 25px 50px -12px rgb(0 0 0 / 0.15);transition:all 0.3s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;}
+        
+        /* Іконки в шапці */
+        .header-btn {
+            width: 48px; height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            transition: all 0.2s;
+        }
+        .header-btn:hover { background-color: #f1f5f9; transform: scale(1.1); }
+        .header-btn:active { background-color: #e0f2fe; }
     </style>
 </head>
 <body class="bg-white text-zinc-900 min-h-screen pb-20">
-    <!-- ==================== ШАПКА ==================== -->
+    <!-- ==================== ШАПКА З ІКОНКАМИ ==================== -->
     <header class="fixed top-0 inset-x-0 bg-white border-b border-zinc-200 z-50 safe-top shadow-sm">
         <div class="px-5 py-3 flex items-center justify-between">
-            <div class="text-center">
-                <div class="font-bold text-2xl tracking-tighter flex items-center justify-center gap-2">
-                    <span class="material-symbols-outlined text-blue-500 text-3xl">folder_open</span>
-                    <?= t('app_name') ?>
+            <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-blue-500 text-3xl">folder_open</span>
+                <div>
+                    <div class="font-bold text-2xl tracking-tighter"><?= t('app_name') ?></div>
+                    <div class="text-[10px] text-zinc-500 -mt-1">v<?= t('version') ?></div>
                 </div>
-                <div class="text-[10px] text-zinc-500 -mt-1">v<?= t('version') ?> Multilang</div>
             </div>
-            <div class="flex items-center gap-5">
-                <a href="?logout=1" class="material-symbols-outlined text-4xl text-red-500 active:scale-95 transition"><?= t('logout') ?></a>
+            <!-- КНОПКИ ТІЛЬКИ ІКОНКИ -->
+            <div class="flex items-center gap-1">
+                <button onclick="newFolder()" class="header-btn text-3xl text-amber-500" title="Нова папка">
+                    <span class="material-symbols-outlined">create_new_folder</span>
+                </button>
+                <button onclick="newFile()" class="header-btn text-3xl text-emerald-500" title="Новий файл">
+                    <span class="material-symbols-outlined">note_add</span>
+                </button>
+                <button onclick="triggerUpload()" class="header-btn text-3xl text-blue-500" title="Завантажити файли">
+                    <span class="material-symbols-outlined">upload_file</span>
+                </button>
+                <a href="?logout=1" class="header-btn text-3xl text-red-500 ml-3" title="Вихід">
+                    <span class="material-symbols-outlined">logout</span>
+                </a>
             </div>
         </div>
     </header>
-    <div class="pt-28 px-4">
-        <!-- Кнопки створення -->
-        <div class="flex gap-3 mb-6">
-            <button onclick="newFolder()" class="flex-1 bg-white border border-zinc-200 hover:bg-zinc-50 active:bg-zinc-100 transition py-5 rounded-3xl flex items-center justify-center gap-3 text-lg font-medium text-zinc-900">
-                <span class="material-symbols-outlined text-2xl text-amber-500">create_new_folder</span><?= t('new_folder') ?>
-            </button>
-            <button onclick="newFile()" class="flex-1 bg-white border border-zinc-200 hover:bg-zinc-50 active:bg-zinc-100 transition py-5 rounded-3xl flex items-center justify-center gap-3 text-lg font-medium text-zinc-900">
-                <span class="material-symbols-outlined text-2xl text-emerald-500">note_add</span><?= t('new_file') ?>
-            </button>
-        </div>
+
+    <div class="pt-20 px-4">
         <div id="grid" class="flex flex-col"></div>
     </div>
+
+    <!-- СКРИТИЙ ІНПУТ ЗАВАНТАЖЕННЯ -->
+    <input type="file" id="fileUpload" multiple style="display: none;" onchange="handleUpload(this.files)">
+
     <!-- РЕДАКТОР -->
     <div id="editorModal" class="hidden fixed inset-0 bg-white z-[999] flex flex-col">
         <div class="bg-white border-b border-zinc-200 px-5 py-4 flex items-center justify-between shadow-sm">
@@ -458,12 +469,14 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
         </div>
         <textarea id="editorTA" spellcheck="false" class="flex-1"></textarea>
     </div>
-    <!-- Множинний вибір -->
+
+    <!-- МНОЖИННИЙ ВИБІР -->
     <div id="multiBar" class="hidden fixed bottom-0 inset-x-0 bg-white border-t border-zinc-200 p-4 flex items-center justify-between z-[100] safe-bottom shadow-2xl">
         <button onclick="deleteSelected()" class="bg-red-600 hover:bg-red-500 px-8 py-5 rounded-3xl font-semibold flex-1 text-white">Видалити вибране (<span id="selCount">0</span>)</button>
         <button onclick="clearSelection()" class="ml-4 text-zinc-500 font-medium px-6 py-5"><?= t('cancel') ?></button>
     </div>
-    <!-- Шлях + місце -->
+
+    <!-- ШЛЯХ + МІСЦЕ -->
     <div class="px-5 pb-3 text-xs flex justify-between items-center text-zinc-500 border-t border-zinc-100">
         <div id="path" class="font-medium truncate max-w-[55%]">/</div>
         <button onclick="goHome()" class="flex items-center gap-2 text-blue-600 active:scale-95 transition">
@@ -472,6 +485,7 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
         </button>
         <div><?= t('space') ?> <span class="text-zinc-900 font-medium"><?= $used_percent ?>%</span> • <?= $used_gb ?> / <?= $total_gb ?> GiB</div>
     </div>
+
     <!-- ФУТЕР -->
     <footer class="fixed bottom-0 inset-x-0 bg-white border-t border-zinc-200 text-center py-3 text-xs text-zinc-500 safe-bottom flex items-center justify-between px-5">
         <div><?= t('footer') ?>Всі права захищено</div>
@@ -481,13 +495,16 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
             <?php endforeach; ?>
         </select>
     </footer>
+
     <div id="toast"></div>
+
     <script>
         let currentPath = "";
         let editingFile = "";
         let selected = new Set();
         let currentTA = null;
         const backText = "<?= addslashes(t('back')) ?>";
+
         async function api(action, extra = {}) {
             const fd = new FormData();
             fd.append('action', action);
@@ -496,31 +513,48 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
             const res = await fetch(window.location.href, {method: 'POST', body: fd});
             return res.json();
         }
+
+        function triggerUpload() {
+            document.getElementById('fileUpload').click();
+        }
+
+        async function handleUpload(files) {
+            if (!files || files.length === 0) return;
+            const fd = new FormData();
+            fd.append('action', 'upload');
+            fd.append('relpath', currentPath);
+            for (let i = 0; i < files.length; i++) {
+                fd.append('files[]', files[i]);
+            }
+            const res = await fetch(window.location.href, {method: 'POST', body: fd});
+            const data = await res.json();
+            if (data.success) {
+                showToast(`<?= t('upload_success') ?> (${data.uploaded})`);
+                loadFiles();
+            } else {
+                showToast(t('upload_error'));
+            }
+        }
+
         function getFileVisual(item) {
             if (item.dir) return {icon: 'folder', color: 'text-amber-500', badge: ''};
             const ext = item.ext.toLowerCase();
             const map = {
-                // ЗОБРАЖЕННЯ
                 'jpg': {icon: 'image', color: 'text-pink-500', badge: 'JPG'},
                 'jpeg': {icon: 'image', color: 'text-pink-500', badge: 'JPG'},
                 'png': {icon: 'image', color: 'text-pink-500', badge: 'PNG'},
                 'gif': {icon: 'gif', color: 'text-pink-500', badge: 'GIF'},
                 'webp': {icon: 'image', color: 'text-pink-500', badge: 'WEBP'},
                 'svg': {icon: 'image', color: 'text-pink-500', badge: 'SVG'},
-                // PDF
                 'pdf': {icon: 'picture_as_pdf', color: 'text-red-500', badge: 'PDF'},
-                // WORD
                 'doc': {icon: 'description', color: 'text-blue-600', badge: 'DOC'},
                 'docx': {icon: 'description', color: 'text-blue-600', badge: 'DOCX'},
-                // EXCEL
                 'xls': {icon: 'table_chart', color: 'text-emerald-600', badge: 'XLS'},
                 'xlsx': {icon: 'table_chart', color: 'text-emerald-600', badge: 'XLSX'},
-                // АРХІВИ
                 'zip': {icon: 'folder_zip', color: 'text-orange-500', badge: 'ZIP'},
                 'rar': {icon: 'folder_zip', color: 'text-orange-500', badge: 'RAR'},
                 '7z': {icon: 'folder_zip', color: 'text-orange-500', badge: '7Z'},
                 'tar': {icon: 'folder_zip', color: 'text-orange-500', badge: 'TAR'},
-                // КОД + ТЕКСТ
                 'txt': {icon: 'description', color: 'text-zinc-500', badge: 'TXT'},
                 'html': {icon: 'html', color: 'text-orange-400', badge: 'HTML'},
                 'css': {icon: 'css', color: 'text-blue-400', badge: 'CSS'},
@@ -530,6 +564,7 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
             };
             return map[ext] || {icon: 'insert_drive_file', color: 'text-sky-500', badge: ext.toUpperCase() || 'FILE'};
         }
+
         function showToast(msg) {
             const t = document.getElementById('toast');
             t.textContent = msg;
@@ -537,11 +572,13 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
             t.style.opacity = '1';
             setTimeout(() => t.style.opacity = '0', 2200);
         }
+
         function updateSelectionBar() {
             const bar = document.getElementById('multiBar');
             bar.classList.toggle('hidden', selected.size === 0);
             document.getElementById('selCount').textContent = selected.size;
         }
+
         function goBack() {
             if (!currentPath) return;
             const parts = currentPath.split('/').filter(Boolean);
@@ -549,16 +586,17 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
             currentPath = parts.join('/');
             loadFiles();
         }
+
         function openFolder(name) {
             currentPath = currentPath ? currentPath + '/' + name : name;
             loadFiles();
         }
+
         async function loadFiles() {
             document.getElementById('path').textContent = currentPath ? '/' + currentPath : '/';
             const data = await api('list');
             const grid = document.getElementById('grid');
             grid.innerHTML = '';
-            // КНОПКА НАЗАД
             if (currentPath) {
                 const backRow = document.createElement('div');
                 backRow.className = 'list-item';
@@ -568,7 +606,6 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
                 `;
                 grid.appendChild(backRow);
             }
-            // ФАЙЛИ ТА ПАПКИ
             data.items.forEach(item => {
                 const vis = getFileVisual(item);
                 const row = document.createElement('div');
@@ -593,16 +630,19 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
                 grid.appendChild(row);
             });
         }
+
         function toggleSelect(cb) {
             const name = cb.dataset.name;
             if (cb.checked) selected.add(name);
             else selected.delete(name);
             updateSelectionBar();
         }
+
         function clearSelection() {
             selected.clear();
             updateSelectionBar();
         }
+
         function deleteSelected() {
             if (selected.size === 0) return;
             if (!confirm(`Видалити ${selected.size} файлів?`)) return;
@@ -619,6 +659,7 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
                 });
             });
         }
+
         async function openEditor(filename) {
             editingFile = currentPath ? currentPath + '/' + filename : filename;
             const data = await api('getfile', {relpath: editingFile});
@@ -628,15 +669,18 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
             currentTA.value = data.content || '';
             currentTA.focus();
         }
+
         function closeEditor() {
             document.getElementById('editorModal').classList.add('hidden');
         }
+
         async function saveEditor() {
             if (!currentTA) return;
             const res = await api('save', {relpath: editingFile, content: currentTA.value});
             if (res.success) showToast(t('file_saved'));
             else showToast("❌ " + (res.msg || 'Помилка'));
         }
+
         function selectAllEditor() { if (currentTA) { currentTA.select(); showToast(t('select_all')); }}
         function copyEditor() { if (currentTA) { navigator.clipboard.writeText(currentTA.value); showToast(t('copied')); }}
         function cutEditor() { if (currentTA) { navigator.clipboard.writeText(currentTA.value); currentTA.value = ''; showToast(t('cut_text')); }}
@@ -649,18 +693,22 @@ $total_gb = round($total_space / 1024 / 1024 / 1024, 2);
                 showToast(t('pasted'));
             }
         }
+
         function newFolder() {
             const name = prompt("Назва нової папки:");
             if (name) api('mkdir', {name}).then(() => loadFiles());
         }
+
         function newFile() {
             const name = prompt("Ім'я нового файлу (з розширенням):");
             if (name) api('mkfile', {name}).then(() => loadFiles());
         }
+
         function goHome() {
             currentPath = "";
             loadFiles();
         }
+
         // Запуск
         loadFiles();
     </script>
